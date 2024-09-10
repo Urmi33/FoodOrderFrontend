@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-bottomNavigation {
+  --tw-shadow: 0 -2px 3px rgba(0, 0, 0, 0.06);
+  --tw-shadow-colored: 0 -2px 3px var(--tw-shadow-color);
+}
+.bottomNavigation {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+body,
+html {
+  -webkit-font-smoothing: antialiased;
+}
+.skiptranslate > iframe.skiptranslate {
+  display: none !important;
+}
+.goog-te-banner-frame {
+  display: none !important;
+}
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+}
+#google_translate_element img {
+  display: none !important;
+}
+.VIpgJd-ZVi9od-l4eHX-hSRGPd,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:link,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:visited,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:hover,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:active {
+  display: none;
+}
+/* #google_translate_element {
+  height: 26px !important;
+} */
+.goog-te-combo {
+  border: none !important;
+
+  padding: 3px !important;
+}
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  display: none !important;
+}
+.skiptranslate > iframe.skiptranslate {
+  display: none !important;
+}
+.goog-te-banner-frame {
+  display: none !important;
+}
+.VIpgJd-ZVi9od-xl07Ob-lTBxed {
+  padding: 10px 10px 10px 10px;
+  /* border: 1px solid brown; */
+  font-size: 15px;
+}
+.goog-te-gadget-simple {
+  border: none;
+}
+.VIpgJd-ZVi9od-xl07Ob-lTBxed img {
+  display: none;
+}
+
+/* General styles for the slider */
+.sliderfooter {
+  margin: 0; /* Remove extra margin around each slide */
+}
+
+/* Styling for arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white; /* Optional background for visibility */
+  height: 28px;
+  width: 28px;
+  z-index: 1;
+  border: 1px solid gray;
+  border-radius: 100%; /* Ensure arrows are above the content */
+}
+
+.next-arrow {
+  right: 10px; /* Position to the right */
+}
+
+.prev-arrow {
+  left: 10px; /* Position to the left */
+}
+.slider-container {
+  overflow: hidden; /* Hide overflow */
+}
+
+.slider-item {
+  display: flex; /* Arrange items vertically */
+  flex-direction: column; /* Stack image and text */
+  align-items: center; /* Center items */
+}
+
+.slider-item img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+}
